@@ -1,0 +1,68 @@
+{
+    "module": "M-OTH-420",
+    "project": "failure",
+    "agent-image": "epitechcontent/epitest-docker:latest",
+    "build-commands": [],
+    "skills": [
+        {
+            "name": "01 - basic failure",
+            "tests": [
+                {
+                    "name": "Test 01",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                },
+                {
+                    "name": "Test 02",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                },
+                {
+                    "name": "Test 03",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                }
+            ]
+        },
+        {
+            "name": "02 - medium failure",
+            "tests": [
+                {
+                    "name": "Test 01",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                },
+                {
+                    "name": "Test 02",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                },
+                {
+                    "name": "Test 03",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                }
+            ]
+        },
+        {
+            "name": "03 - hard failure",
+            "tests": [
+                {
+                    "name": "Test 01",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                },
+                {
+                    "name": "Test 02",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                },
+                {
+                    "name": "Test 03",
+                    "command": "echo -n ^KO",
+                    "expected": "^OK"
+                }
+            ]
+        }
+    ]
+}
