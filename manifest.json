@@ -2,6 +2,8 @@
     "module": "M-OTH-420",
     "project": "failure",
     "agent-image": "epitechcontent/epitest-docker:latest",
+    "enable-coding-style": false,
+    "enable-coverage": false,
     "build-commands": [],
     "skills": [
         {
